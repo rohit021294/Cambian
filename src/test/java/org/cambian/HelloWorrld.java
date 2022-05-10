@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
 public class HelloWorrld {
 @Test
     public void helloWorld() throws InterruptedException {
-    System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
-    ChromeOptions options=new ChromeOptions();
-    options.addArguments("headless");
+    System.setProperty("webdriver.chrome.driver","C:\\Users\\ADMIN\\IdeaProjects\\Cambian\\driver\\chromedriver.exe");
+//    ChromeOptions options=new ChromeOptions();
+//    options.addArguments("headless");
 
-    WebDriver driver=new ChromeDriver(options);
+    WebDriver driver=new ChromeDriver();
     driver.get("https://demo.guru99.com/V4/");
     driver.manage().window().maximize();
     Thread.sleep(3000);
