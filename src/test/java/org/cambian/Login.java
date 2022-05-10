@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Login  {
     @Test
     public void loginTest() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ADMIN\\IdeaProjects\\Cambian\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/root/Cambian/driver/chromedriver.exe");
 //        ChromeOptions options=new ChromeOptions();
 //        options.addArguments("headless");
         WebDriver driver=new ChromeDriver();
